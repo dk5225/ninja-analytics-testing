@@ -28,7 +28,7 @@ jobs:
         uses: cloudbees-io/publish-test-results@v2
         with:
           test-type: go
-          results-path: ${{ cloudbees.workspace }}/test_data/go/report.xml
+          results-path: ${{ cloudbees.workspace }}/test_data/go/report2.xml
 
       - name: Build
         id: build
