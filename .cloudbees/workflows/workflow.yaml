@@ -52,7 +52,7 @@ jobs:
           name: test-artifact-ninja-1:${{cloudbees.version}}
   
   deploy-test:
-    environment: Production
+    environment: Dummy_Testing_Only_Env
     steps:
       - name: Say hello
         uses: docker://alpine:3.17
